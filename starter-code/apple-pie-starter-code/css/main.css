@@ -1,0 +1,31 @@
+.apple-pie-image{
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.page-heading{
+  color: white;
+  position: relative;
+  /*left: 30%;*/
+  top: 40%;
+  text-align: center;
+}
+.whole-page{
+  margin: 0 60px;
+}
+.ingredients-list{
+  list-style: none;
+}
+.ingredients-list > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+/*this would be instead of the <hr>*/
+.center-tag-for-img{
+  border-bottom: 1px solid black;
+}
+  .recipe-info{
+    width: 60%;
+    margin-bottom: 40px;
+  }
